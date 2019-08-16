@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Layout,Header,Navigation,Drawer,Textfield} from 'react-mdl';
+import {Link} from 'react-router-dom';
 import './navbar.css';
 import Table from '../Table/Table';
 
@@ -10,10 +11,10 @@ class NavBar extends Component {
                 <Layout fixedHeader>
                     <Header id="nav__bar" title={<span><span style={{ color: '#ddd' }}></span><strong>Go Talent</strong></span>}>
                         <Navigation>
-                            <a href="#"><i class="fas fa-cog"></i></a>
-                            <a href="#"><i class="fas fa-chevron-down"></i></a>
+                            <Link to="/"><i class="fas fa-cog"></i></Link>
+                            <Link to="/"><i class="fas fa-chevron-down"></i></Link>
                             <span id="line__nav">|</span>
-                            <a href="#"><i class="far fa-bell"></i></a>
+                            <Link to="/"><i class="far fa-bell"></i></Link>
                         </Navigation>
                     </Header>
                     <Drawer id="side__bar" style={{height: '100%'}} title="Go Talent">
@@ -29,16 +30,13 @@ class NavBar extends Component {
                         </Navigation>
                     </Drawer>
                     <div className="companies">
-                    <h6 className="add__companies">Directorio de Empresas</h6>
-                    <Textfield className="text__field"
-                        onChange={() => {}}
-                        label="Agregar empresa"
-                        style={{width: '200px'}}
-                    />
+                    <span className="add__companies">Directorio de Empresas</span>
+                    <input placeholder="Agregar empresa"/>
                     </div>
-                    <div>
-                        <p className="companies__status">Empresas</p>
-                        <div className="companies__status"><span>500</span></div>
+                    <div className="companies__numbers">
+                        <span className="companies__status">Empresas</span>
+                        <span className="companies__status">500</span>
+                        <span>Ordenr por: <a href="#">Empresa</a> | <a href="#">Administrador</a></span>
                     </div>
                     <Table/>
                 </Layout>
