@@ -13,17 +13,68 @@
 
 .companies{
     border-bottom: 1px solid grey;
-    height: 50px;
+    display: flex;
     background: rgba(128, 128, 128, 0.377);
+    padding: 8px;
 }
 
-
-.text__field, .add__companies, .companies__status{
-    display: inline-block;
-    width: 31%;
-    margin: 0;
+.companies input{
+    border-radius: 19px;
+    width: 20%;
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
 }
 
-.text__field{
-    margin-left: 0;
+.companies span{
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+#side__bar, #sidebad__pic{
+    background: rgba(5, 5, 51);
+    margin: 0 auto;
+    color: rgb(192, 188, 183);
+}
+
+.companies__numbers{
+    padding: 5px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.companies__numbers span:nth-child(2){
+    padding: 3px;
+    background-color: plum;
+    color: rgb(250, 249, 249);
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.226);
+}
+
+.companies__numbers span:nth-child(3){
+    float: right;
+    padding: 4px;
+    border-radius: 6px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.226);
+}
+
+.companies__numbers span:nth-child(4){
+    outline: 1px solid rebeccapurple;
+    float: right;
+    padding: 4px;
+    
+}
+
+.mdl-navigation__link:nth-child(2){
+    /* outline: 1px solid rebeccapurple; */
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+@media(max-width: 366px){
+    .companies__numbers:nth-child(3){
+        display: block;
+        outline: 1px solid red;
+    }
 }
