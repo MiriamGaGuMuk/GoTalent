@@ -14,16 +14,24 @@
 .companies{
     border-bottom: 1px solid grey;
     height: 50px;
+    width: 100%;
     background: rgba(128, 128, 128, 0.377);
 }
 
 
 .text__field, .add__companies, .companies__status{
     display: inline-block;
-    width: 31%;
+    width: 20%;
     margin: 0;
 }
 
 .text__field{
     margin-left: 0;
 }
+
+#side__bar, #feed-img{
+    background: rgba(5, 5, 51);
+    margin: 0 auto;
+    color: rgb(192, 188, 183);
+}
+

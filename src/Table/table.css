@@ -1,5 +1,17 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+#data__table, .companies__pages{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.companies__pages{
+    background: rgba(103, 85, 136, 0.829);
+    text-align-last: right;
+    padding: 8px;
+    color: white;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+.mdl-data-table, .mdl-shadow--2dp{
+    margin: 0;
 }
