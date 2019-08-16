@@ -19,9 +19,11 @@ class NavBar extends Component {
                     </Header>
                     <Drawer id="side__bar" style={{height: '100%'}} title="Go Talent">
                         <Navigation>
-                        <img id="feed-img" style={{width: '200px', height: '150px'}} src="https://i2.wp.com/myaeon.com.au/wp-content/uploads/2017/04/avatar-round-1.png?ssl=1" alt="An awesome shot"/>
-                        <p>Alexandra Sousa Smith</p>
-                        <p>Developer Expert</p>
+                        <img col={4} phone={2} tablet={4} style={{width:'150px', height: '150px'}} id="sidebad__pic"  src="https://i2.wp.com/myaeon.com.au/wp-content/uploads/2017/04/avatar-round-1.png?ssl=1" alt="An awesome shot"/>
+                        <p>Alexandra Sousa Smith
+                            <br/>
+                            Developer Expert
+                        </p>
                             <a href="#">Profile</a>
                             <a href="#">Ofertas de empleo</a>
                             <a href="#">Buscador Avanzado</a>

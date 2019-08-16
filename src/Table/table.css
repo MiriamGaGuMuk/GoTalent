@@ -67,11 +67,6 @@ span:nth-child(2){
         display: none;
     }
 
-    .data__table__container, #data__table, .companies__pages{
-        width: 70%;
-        margin: 0 auto;
-    }
-
     #data__table .mdl-checkbox, .mdl-data-table__cell--non-numeric{
         display: none; 
     }
@@ -88,15 +83,9 @@ span:nth-child(2){
     }
 }
 
-@media(min-width: 600px){
+@media(min-width: 763px){
     .mdl-checkbox, .mdl-data-table__cell--non-numeric{
         display: table-cell;
         font-size: 12px;
-    }
-}
-
-@media(max-width: 1016px){
-    .companies__pages{
-        width: 72%;
     }
 }

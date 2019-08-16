@@ -31,15 +31,7 @@
     margin-top: 3px;
 }
 
-
-/* .text__field, .add__companies, .companies__status{
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-} */
-
-
-#side__bar, #feed-img{
+#side__bar, #sidebad__pic{
     background: rgba(5, 5, 51);
     margin: 0 auto;
     color: rgb(192, 188, 183);
@@ -74,13 +66,8 @@
     
 }
 
-
-
-@media(max-width: 411px){
-    .mdl-navigation__link{
-        width: 100px;
-        height: 120px;
-    }
+.mdl-navigation__link:nth-child(2){
+    /* outline: 1px solid rebeccapurple; */
+    text-align: center;
+    padding: 0px 16px 0px 16px;
 }
-
-

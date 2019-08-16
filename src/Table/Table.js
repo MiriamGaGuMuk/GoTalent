@@ -6,18 +6,18 @@ class Table extends Component{
     render(){
         return(
             <React.Fragment>
-                <div className="companies__pages">
+                <div col={8} tablet={6} phone={4} className="companies__pages">
                     <span>1-10 de 230</span>
                     <span><i class="fas fa-arrow-circle-left"></i></span>
                     <span><i class="fas fa-arrow-circle-right"></i></span>
                 </div>
-                <div className="navigation__companies">
+                <div col={8} tablet={6} phone={4} className="navigation__companies">
                     <input style={{textAlign: "left"}} placeholder="Search"/>
                     <span><i class="far fa-star"></i></span>
                     <span>A B <strong>C</strong> D E F G H I J K L M N O P Q R S T U V W X Y Z</span>          
                 </div>
         <div id="data__table__container" >
-        <DataTable col={8} tablet={6} id="data__table"
+        <DataTable col={8} tablet={6} phone={4} id="data__table"
             selectable
             shadow={0}
             rowKeyColumn="id"
