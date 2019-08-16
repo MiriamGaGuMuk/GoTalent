@@ -1,0 +1,29 @@
+#nav__bar{
+    background: -webkit-linear-gradient(left, rgba(97,99,204,1) 0%,
+     rgba(97,99,204,0.99) 9%,
+      rgba(36,34,199,0.95) 45%,
+       rgba(11,0,168,0.91) 78%,
+        rgba(72,56,220,0.88) 100%);
+    
+}
+
+#line__nav{
+    font-size: 30px;
+}
+
+.companies{
+    border-bottom: 1px solid grey;
+    height: 50px;
+    background: rgba(128, 128, 128, 0.377);
+}
+
+
+.text__field, .add__companies, .companies__status{
+    display: inline-block;
+    width: 31%;
+    margin: 0;
+}
+
+.text__field{
+    margin-left: 0;
+}
